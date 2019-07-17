@@ -1,6 +1,6 @@
 {
   "name": "babel-runtime-jsx-plus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Babel runtime support for jsx plus.",
   "main": "dist/babel-runtime-jsx-plus.umd.js",
   "scripts": {
