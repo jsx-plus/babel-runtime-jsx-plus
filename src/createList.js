@@ -1,5 +1,3 @@
-const ObjetProtoToString = Object.prototype.toString;
-
 /**
  * Render element list.
  * @param val {Array|Number|Object|String} List value.
@@ -35,5 +33,5 @@ export default function createList(val, render) {
  * @return {boolean}
  */
 function isPlainObject(obj) {
-  return ObjetProtoToString.call(obj) === '[object Object]';
+  return {}.toString.call(obj) === '[object Object]';
 }
