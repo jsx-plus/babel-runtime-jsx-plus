@@ -3,6 +3,7 @@
   "version": "0.1.5",
   "description": "Babel runtime support for jsx plus.",
   "main": "dist/babel-runtime-jsx-plus.umd.js",
+  "sideEffects": false,
   "scripts": {
     "build": "cross-env NODE_ENV=production rollup -c rollup.config.js",
     "prepublish": "npm run build"
